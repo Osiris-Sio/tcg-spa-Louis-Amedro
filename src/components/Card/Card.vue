@@ -22,7 +22,6 @@
           :percentage="hpPercentage"
           :color="hpBarColor"
           :show-indicator="false"
-          processing
         />
         <span class="hp-text">{{ currentHp }} / {{ card.hp }} HP</span>
       </div>

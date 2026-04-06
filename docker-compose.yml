@@ -21,6 +21,7 @@ services:
 
   api:
     image: seyrinian/tcg-api:latest
+    # build: ../tcg-api-Osiris-Sio
     container_name: tcg_api
     restart: unless-stopped
     ports:

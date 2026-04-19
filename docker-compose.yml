@@ -21,6 +21,7 @@ services:
 
   api:
     image: seyrinian/tcg-api:latest
+    # build: ../TCG-API-Pokemon
     container_name: tcg_api
     restart: unless-stopped
     ports:
